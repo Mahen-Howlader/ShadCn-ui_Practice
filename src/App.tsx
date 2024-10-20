@@ -1,12 +1,14 @@
 
 import { DaylogDemo } from './components/DaylogDemo'
 import AlertDialogs from './components/AlertDialogs'
+import AcordianDem from './components/AcordianDem'
 
 function App() {
   return (
-    <div className='bg-gray-800 min-h-screen'>
+    <div className=''>
       <DaylogDemo></DaylogDemo>
       <AlertDialogs></AlertDialogs>
+     <AcordianDem></AcordianDem>
     </div>
   )
 }
